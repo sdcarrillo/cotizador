@@ -14,11 +14,20 @@ en precios estructurados. Cada precio queda guardado con la cita del fragmento d
 proveedores gastronómicos reales de Buenos Aires hasta el 20 de octubre de 2026, y de esa operación salen todas las
 cifras de esta página.
 
+## Demostración
+
+<p align="center"><a href="https://youtu.be/ob1ydpYHqf8"><img src="docs/img/demo.png" alt="Ver la demostración del sistema, de un minuto" width="760"></a></p>
+
+[Video de un minuto](https://youtu.be/ob1ydpYHqf8): un proveedor manda su lista por WhatsApp y corrige un precio, el
+sistema guarda los 14 renglones con su cita y le responde por su cuenta. Se grabó sobre el sistema en producción, con
+un número de prueba y una lista de precios inventada.
+
 ## Qué hay en este repositorio
 
 - [`dataset/`](dataset/): el conjunto de datos anonimizado que acompaña al informe, con 72.702 observaciones de
   precio de 179 proveedores.
-- Esta página: cómo funciona el sistema, un caso real paso a paso y los resultados principales.
+- Esta página: la demostración en video, cómo funciona el sistema, un caso real paso a paso y los resultados
+  principales.
 
 El código no está en esta primera versión. Sus pruebas y sus comentarios citan a proveedores reales, y primero hay
 que anonimizarlos.
