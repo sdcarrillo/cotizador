@@ -1,0 +1,2 @@
+# El conjunto de datos se guarda byte a byte, para que coincidan las sumas de SHA256SUMS
+dataset/** -text
