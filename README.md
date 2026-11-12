@@ -25,17 +25,7 @@ que anonimizarlos.
 
 ## Cómo funciona
 
-```mermaid
-flowchart LR
-    C["Módulo de contacto<br/>tandas que aprueba una persona"] --> P["Proveedor"]
-    P -->|"WhatsApp o correo"| T["Turno<br/>los mensajes seguidos se agrupan"]
-    T --> L["Lectura según el formato<br/>texto, audio, PDF, foto o planilla"]
-    L --> A{"Agente<br/>¿precios o conversación?"}
-    A -->|"conversación"| R["Respuesta al proveedor"]
-    A -->|"precios"| E["Extracción<br/>cada precio con su cita"]
-    E --> V["Vinculación<br/>con un catálogo de productos"]
-    V --> M["Comparación<br/>entre proveedores"]
-```
+<p align="center"><img src="docs/img/vista-general.png" alt="Vista general del sistema, del mensaje del proveedor a la comparación de precios" width="760"></p>
 
 1. **Contacto.** Un módulo abre la conversación con proveedores nuevos, en tandas que una persona aprueba antes de
    que salgan.
